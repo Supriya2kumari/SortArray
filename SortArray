@@ -1,0 +1,26 @@
+import java.util.*;
+
+class SortArray 
+{
+    public static void main(String[] args) 
+    {
+        int a[] = {1,88,3,45,20,17,90,2,33,44,6,15,17};
+        
+        System.out.println("Original array");
+        
+        for(int i = 0; i < a.length; i++)
+        {
+            System.out.print(a[i]+" ");
+        }
+        
+        System.out.println();
+        
+        System.out.println("Sorted Array : ");
+        
+        for(int i=0; i<a.length;i++)
+        {
+            Arrays.sort(a);
+            System.out.print(a[i]+" ");
+        }
+    }
+}
